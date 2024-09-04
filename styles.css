@@ -1,0 +1,24 @@
+
+.card {
+    margin: 30px;
+}
+.card-body {
+    min-height: 78vh !important;
+}
+.card-header {
+    height: 80px;
+}
+.logo {
+    width: 50px;
+    height: 50px;
+    margin: auto auto auto 5px;
+    position: relative;
+    top: 5px;
+}
+.nav-tabs {
+    position: relative;
+    bottom: 20px;
+}
+.obs {
+    max-width: 400px;
+}
