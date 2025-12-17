@@ -14,7 +14,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     // Verifica se todos os campos obrigatórios estão preenchidos
     if (isset($_POST["loc"]) && isset($_POST["posgrad"]) && isset($_POST["user_name"]) && isset($_POST["cpu"]) && isset($_POST["os"]) && isset($_POST["ram"]) && isset($_POST["rom"]) && isset($_POST["ip_addr"]) && isset($_POST["mac_addr"]) && isset($_POST["n_ficha"])) {
         
-        // Conexão com o banco de dados (já que você já incluiu o arquivo de conexão)
+        // Conexão com o banco de dados
         include('database/connection.php');
 
         // Captura os dados do formulário
